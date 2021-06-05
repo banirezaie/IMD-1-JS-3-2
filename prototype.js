@@ -20,7 +20,7 @@ arr.push(4)
 
 const body = document.body
 
-console.dir(body)
+// console.dir(body)
 
 // now find prototype
 
@@ -33,13 +33,12 @@ String.prototype
 //let's make a prototype :)
 //don't try it at home :D, it's not what I want you to do as a regular pattern,
 //but I want you to understand what is prototype
-String.prototype.grumps = () => alert("khkhkhkhkhkhkhkh....")
-const cat = "Blue"
-cat.grumps()
+// String.prototype.grumps = () => alert("khkhkhkhkhkhkhkh....")
+// const cat = "Blue"
+// cat.grumps()
 //one more one more
-String.prototype.yell = function () { console.log(this.toUpperCase) }
-"hello".yell()
-
+String.prototype.yell = function () { console.log(this.toUpperCase()) }
+// "hello".yell()
 
 
 //The idea behind prototype is having a single object that contains common properties and methods

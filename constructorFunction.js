@@ -48,5 +48,5 @@ Color.prototype.rgba = function(a = 1.0) {
 
 const color1 = new Color(40, 255, 60);
 color1.hex();
-const color2 = new Color(0, 0, 0);
+const color2 = new Color(100, 10, 200);
 color2.hex();
