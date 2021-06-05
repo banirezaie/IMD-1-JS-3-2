@@ -1,4 +1,5 @@
 class Color {
+    // constructor is a keyword
 	constructor(r, g, b, name) {
 		this.r = r;
 		this.g = g;
@@ -14,7 +15,7 @@ class Color {
 	}
 	rgba(a = 1.0) {
 		return `rgba(${this.innerRGB()}, ${a})`;
-	}
+    }
 	hex() {
 		const { r, g, b } = this;
 		return (
